@@ -1,9 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f8f9fa;
     color: #333;
+    text-align: center;
 }
 
 header {
@@ -15,54 +14,62 @@ header {
 
 header h1 {
     font-size: 2.5em;
-    margin: 0;
+    color: rgb(155, 26, 26);
 }
 
 header p {
     font-size: 1.2em;
-    margin-top: 10px;
+    color: black;
 }
 
-.product-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 10%;
-    gap: 30px;
-    background-color: white;
-}
-
-.product-description {
-    max-width: 500px;
-}
-
-.product-description h2 {
+.almost h2{
     font-size: 2em;
-    color: #333;
+    padding: 20px;
+    background-color: rgb(228, 7, 248);
+    color: white;
+
 }
 
-.product-description p {
+.almost {
     font-size: 1.1em;
-    line-height: 1.6;
-    margin: 20px 0;
+    background-color: yellow;
+    padding: 20px;
+
 }
+
+
+.attention {
+    font-size: 1.1em;
+    padding: 20px;
+    background-color: rgb(48, 25, 150);
+    color:orange;}
+
 
 .nomore {
-    margin-top: 30px;
     font-size: 1.1em;
+    padding: 20px;
     background-color: orange;
-    color: #333;
+    color: #3404f2;
 }
 
-.whybuy ul {
+
+.whybuy{
     list-style-type: square;
-    margin-left: 20px;
+    padding: 20px;
     background-color: #42bd4e;
-    color: #333;
+    color: #b30808;
 }
 
+.buy {
+    background-color: aqua;
+    color: red;
+    padding: 20px;
+}
 
+.buy p {
+    font-size: 2.5em;
 
+}
 
 footer {
     text-align: center;
